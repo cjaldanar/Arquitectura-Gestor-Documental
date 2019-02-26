@@ -4,3 +4,4 @@ INTEGRANTS
 Carmen  Aldana 
 Andres Felipe Martinez
 Juan Carlos Cruz
+![Imagen arquitectura](Arquitectura Gestor Documental.png)
