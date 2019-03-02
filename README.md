@@ -5,13 +5,13 @@
 
 # INTEGRANTES
 
-Carmen  Aldana 
-Andres Felipe Martinez
-Juan Carlos Cruz
+*Carmen  Aldana
+*Andres Felipe Martinez
+*Juan Carlos Cruz
 
-# ARQUITECTURA PARA GESTOR DOCUMENTAL
+# GESTOR DOCUMENTAL
 
-   # ARQUITECTURA CLIENTE/SERVIDOR:
+   # ARQUITECTURA PROPUESTA CLIENTE/SERVIDOR:
 
 ![Imagen arquitectura](https://github.com/cjaldanar/Arquitectura-Gestor-Documental/blob/master/Arquitectura%20Gestor%20Documental.png)
 
