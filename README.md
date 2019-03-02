@@ -1,13 +1,22 @@
-# Arquitectura-Gestor-Documental
-Proponer una arquitectura de bolsillo para un gestor documental
-INTEGRANTS
+# EJERCICIO
+
+1. Proponer una arquitectura de bolsillo para un gestor documental.
+2. Justificar la selección de la arquitectura.
+
+# INTEGRANTES
+
 Carmen  Aldana 
 Andres Felipe Martinez
 Juan Carlos Cruz
+
+# ARQUITECTURA PARA GESTOR DOCUMENTAL
+
+   # ARQUITECTURA CLIENTE/SERVIDOR:
+
 ![Imagen arquitectura](https://github.com/cjaldanar/Arquitectura-Gestor-Documental/blob/master/Arquitectura%20Gestor%20Documental.png)
 
+# JUSTIFICACIÓN
 
-Justificación:
 Decidimos hacer una aplicación orientada a la web, porque en el negocio donde nos centramos la mayoría de aplicacionesse están migrando a esto para tener un unico portal de aplicaciones para el usuario final, por la ventaja de ser multiplataforma y la administración de esta.
 
 Esogimos una BD SQLServer, porque la cantidad de comunicados de operaciones, reembolsos y "la otra no me acuerdo", no es muy siginificante, allí tendremos solo los apuntadores o referencias a los archivos, es decir que no se almacenarán los archivos en esta.
