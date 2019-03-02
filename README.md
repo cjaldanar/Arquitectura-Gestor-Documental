@@ -5,9 +5,9 @@
 
 # INTEGRANTES
 
-*Carmen  Aldana
-*Andres Felipe Martinez
-*Juan Carlos Cruz
+* Carmen  Aldana
+* Andres Felipe Martinez
+* Juan Carlos Cruz
 
 # GESTOR DOCUMENTAL
 
