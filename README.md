@@ -44,17 +44,28 @@ Para hacer una identificación arquitectural guiada y certera, se identifica los
 
    # ARQUITECTURA PROPUESTA:
 
-A partir de los requisitos identificados, se identifica la siguiente arquitectura de la solución desde un punto de vista lógico:
+A partir de los requisitos identificados, se identifica la siguiente arquitectura de la solución desde un punto de vista lógico :
 
 ![Imagen arquitectura](https://github.com/cjaldanar/Arquitectura-Gestor-Documental/blob/master/Arquitectura%20Gestor%20Documental.png)
 
+![Imagen arquitectura](https://github.com/cjaldanar/Arquitectura-Gestor-Documental/blob/master/Vista%20l%C3%B3gica%20de%20arquitectura.png)
+
 Se establece una arquitectura cliente – servidor de tres capas con los siguientes elementos:
+
 * Contenedor Web en donde se implementarán las capas de presentación y aplicación. Además, soportará parte o toda la implementación de los requisitos identificados para el sistema.
 * Repositorio de archivos en donde se implementará una parte de la capa de servidores que será complementada por la base de datos. De manera particular, esta capa soportará la implementación total o parcial de los siguientes requisitos: 1.1, 1.2, 1.5, 2.1, 3.2, 5.1, 6.1, 6.2, 6.3.
 * Base de datos archivos en donde se implementará una parte de la capa de servidores que será complementada por el repositorio de archivos. De manera particular, esta capa soportará la implementación total o parcial de los siguientes requisitos: 1.6, 1,7, 2.1, 3.2, 3.3, 5.1, 6.1, 6.2, 6.3.
 
 # JUSTIFICACIÓN
 
-* La arquitectura de solución propuesta realiza todos y cada uno de los requisitos identificados para el sistema y permitirá una implementación tecnológica con herramientas e infraestructura de software vigentes y propuestas dentro de los marcos de trabajo más usados como JEE. 
-* La solución propuesta es confiable y escalable tanto horizontal como verticalmente lo asegurará su madurez y robustez.
-* Permitirá el uso de estándares y marcos de trabajo vigentes para la implementación de los diferentes artefactos de software que se definan para el sistema de información a implementar. Sin embargo, tiene un punto débil y es que no ofrece las funcionalidades a través de servicios sino a través de una aplicación lo cual restringirá el número y variedad de dispositivos desde los cuales podrá ser usada. 
+a. Se seleccionó una arquitectura Cliente/Servidor debido a que:
+1. Ofrece ventajas en un sistema operativo multiusuario distribuido a través de una red de computadoras.
+2. La capacidad de proceso está repartida entre el cliente y el servidor.
+3. Ofrece ventajas de tipo organizativo por la centralización de la gestión de la información y la separación de responsabilidad.
+4. Los tipos específicos de servidores incluyen los servidores web, los servidores de archivo, los servidores del correo, etc.
+
+b. La arquitectura propuesta realiza todos y cada uno de los requisitos identificados para el sistema y permitirá una implementación tecnológica con herramientas e infraestructura de software vigentes y propuestas dentro de los marcos de trabajo más usados como JEE.
+
+c. La solución propuesta es confiable y escalable tanto horizontal como verticalmente lo que asegurará su madurez y robustez.
+
+d. Permitirá el uso de estándares y marcos de trabajo vigentes para la implementación de los diferentes artefactos de software que se definan para el sistema de información a implementar. Sin embargo, tiene un punto débil y es que no ofrece las funcionalidades a través de servicios sino a través de una aplicación lo cual restringirá el número y variedad de dispositivos desde los cuales podrá ser usada. 
