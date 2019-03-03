@@ -44,9 +44,9 @@ Para hacer una identificación arquitectural guiada y certera, se identifica los
 
    # ARQUITECTURA PROPUESTA:
 
-A partir de los requisitos identificados, se identifica la siguiente arquitectura de la solución desde un punto de vista lógico :
+A partir de los requisitos identificados, se propone la siguiente arquitectura de la solución desde un punto de vista lógico :
 
-![Imagen arquitectura](https://github.com/cjaldanar/Arquitectura-Gestor-Documental/blob/master/Arquitectura%20Gestor%20Documental.png)
+  ![Imagen arquitectura](https://github.com/cjaldanar/Arquitectura-Gestor-Documental/blob/master/Arquitectura%20Gestor%20Documental.png)
 
 ![Imagen arquitectura](https://github.com/cjaldanar/Arquitectura-Gestor-Documental/blob/master/Vista%20l%C3%B3gica%20de%20arquitectura.png)
 
