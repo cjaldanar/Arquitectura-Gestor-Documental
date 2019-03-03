@@ -24,22 +24,22 @@ Para hacer una identificación arquitectural guiada y certera, se identifica los
 
 # * Requisitos de sistema:
 
-1.1 El sistema deberá permitir la carga de diferentes tipos de archivos almacenándolos en un repositorio de archivos con suficiente capacidad para soportar la operación del número de usuarios estimados para el sistema.
-1.2 Se estima que el número de usuarios del sistema será de 1000 y que cada usuario podrá usar una capacidad de 10 GB.
-1.3 Los tipos de archivos que serán almacenados en el repositorio son: TXT, DOCX, XLS, PDF, JPG, BMP, entre otros. No se permitirá el almacenamiento de archivos ejecutables.
-1.4 El sistema permitirá la modificación de los archivos cargados en el repositorio mediante interfaz provista por el mismo sistema.
-1.5 También se deberá permitir la descarga y eliminación de los archivos que previamente han sido cargados.
-1.6 El sistema deberá almacenar toda la información relacionada con las operaciones que hagan los usuarios sobre el sistema.
-1.7 Debido a que el sistema deberá asociar las operaciones realizadas con los usuarios que soporta, se deberán proporcionar todas las funciones que permitan la administración de los usuarios y sus perfiles.
-2.1 El sistema deberá soportar 1.000 usuarios en total y 100 de ellos de manera concurrente.
-3.1 El sistema deberá soportar las características de seguridad definidas en la norma ISO25010: confidencialidad, integridad, no repudio, autenticidad y responsabilidad.
-3.2 Las características de confidencialidad, autenticidad e integridad se resolverán implementando mecanismos de autorización, autenticación y de cifrado de las comunicaciones mediante el uso de certificados digitales.
-3.3 Las características de no repudio y responsabilidad se resolverán mediante la implementación de registros para auditoría de cada una de las operaciones realizadas por el usuario en el sistema.
-4.1 El sistema deberá tener en cuenta la guía de usabilidad vigente de MINTIC para su implementación.
-5.1 El sistema deberá estar soportado por una infraestructura redundante y escalable alojado en centro de datos certificado como mínimo en nivel 3.
-6.1 El sistema deberá soportar las características de fiabilidad definidas en la norma ISO25010 y en particular: tolerancia a fallos y capacidad de recuperación.
-6.2 La característica de capacidad de recuperación será implementada mediante el registro de LOGS de monitoreo en donde se registre el estado del sistema cada vez que se realiza una operación.
-6.3 La capacidad de recuperación se implementará mediante la lectura de LOGS de monitoreo y la restauración del sistema al estado estable anterior al fallo.
+* 1.1 El sistema deberá permitir la carga de diferentes tipos de archivos almacenándolos en un repositorio de archivos con suficiente capacidad para soportar la operación del número de usuarios estimados para el sistema.
+* 1.2 Se estima que el número de usuarios del sistema será de 1000 y que cada usuario podrá usar una capacidad de 10 GB.
+* 1.3 Los tipos de archivos que serán almacenados en el repositorio son: TXT, DOCX, XLS, PDF, JPG, BMP, entre otros. No se permitirá el almacenamiento de archivos ejecutables.
+* 1.4 El sistema permitirá la modificación de los archivos cargados en el repositorio mediante interfaz provista por el mismo sistema.
+* 1.5 También se deberá permitir la descarga y eliminación de los archivos que previamente han sido cargados.
+* 1.6 El sistema deberá almacenar toda la información relacionada con las operaciones que hagan los usuarios sobre el sistema.
+* 1.7 Debido a que el sistema deberá asociar las operaciones realizadas con los usuarios que soporta, se deberán proporcionar todas las funciones que permitan la administración de los usuarios y sus perfiles.
+* 2.1 El sistema deberá soportar 1.000 usuarios en total y 100 de ellos de manera concurrente.
+* 3.1 El sistema deberá soportar las características de seguridad definidas en la norma ISO25010: confidencialidad, integridad, no repudio, autenticidad y responsabilidad.
+* 3.2 Las características de confidencialidad, autenticidad e integridad se resolverán implementando mecanismos de autorización, autenticación y de cifrado de las comunicaciones mediante el uso de certificados digitales.
+* 3.3 Las características de no repudio y responsabilidad se resolverán mediante la implementación de registros para auditoría de cada una de las operaciones realizadas por el usuario en el sistema.
+* 4.1 El sistema deberá tener en cuenta la guía de usabilidad vigente de MINTIC para su implementación.
+* 5.1 El sistema deberá estar soportado por una infraestructura redundante y escalable alojado en centro de datos certificado como mínimo en nivel 3.
+* 6.1 El sistema deberá soportar las características de fiabilidad definidas en la norma ISO25010 y en particular: tolerancia a fallos y capacidad de recuperación.
+* 6.2 La característica de capacidad de recuperación será implementada mediante el registro de LOGS de monitoreo en donde se registre el estado del sistema cada vez que se realiza una operación.
+* 6.3 La capacidad de recuperación se implementará mediante la lectura de LOGS de monitoreo y la restauración del sistema al estado estable anterior al fallo.
 
 
    # ARQUITECTURA PROPUESTA:
