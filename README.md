@@ -5,9 +5,9 @@
 
 # INTEGRANTES
 
-* Carmen Aldana
-* Andres Felipe Martinez
-* Juan Carlos Cruz
+* Carmen Julia Aldana Rojas      - Código: 20191099023
+* Andres Felipe Martinez Ramírez - Código: 20191099030
+* Juan Carlos Cruz Fajardo       - Código: 20191099027
 
 # GESTOR DOCUMENTAL
 
@@ -41,16 +41,17 @@ Para hacer una identificación arquitectural guiada y certera, se identifica los
 * 6.2 La característica de capacidad de recuperación será implementada mediante el registro de LOGS de monitoreo en donde se registre el estado del sistema cada vez que se realiza una operación.
 * 6.3 La capacidad de recuperación se implementará mediante la lectura de LOGS de monitoreo y la restauración del sistema al estado estable anterior al fallo.
 
-
    # ARQUITECTURA PROPUESTA:
 
 A partir de los requisitos identificados, se propone la siguiente arquitectura de la solución desde un punto de vista lógico :
+
+# Vista lógica
 
   ![Imagen arquitectura](https://github.com/cjaldanar/Arquitectura-Gestor-Documental/blob/master/Arquitectura%20Gestor%20Documental.png)
 
 ![Imagen arquitectura](https://github.com/cjaldanar/Arquitectura-Gestor-Documental/blob/master/Vista%20l%C3%B3gica%20de%20arquitectura.png)
 
-Se establece una arquitectura cliente – servidor de tres capas con los siguientes elementos:
+# Se establece una arquitectura "cliente – servidor" de tres capas con los siguientes elementos
 
 * Contenedor Web en donde se implementarán las capas de presentación y aplicación. Además, soportará parte o toda la implementación de los requisitos identificados para el sistema.
 * Repositorio de archivos en donde se implementará una parte de la capa de servidores que será complementada por la base de datos. De manera particular, esta capa soportará la implementación total o parcial de los siguientes requisitos: 1.1, 1.2, 1.5, 2.1, 3.2, 5.1, 6.1, 6.2, 6.3.
