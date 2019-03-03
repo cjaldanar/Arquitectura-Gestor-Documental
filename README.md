@@ -25,7 +25,6 @@ Para hacer una identificación arquitectural guiada y certera, se identifica los
 # * Requisitos de sistema:
 
 1.1 El sistema deberá permitir la carga de diferentes tipos de archivos almacenándolos en un repositorio de archivos con suficiente capacidad para soportar la operación del número de usuarios estimados para el sistema.
-
 1.2 Se estima que el número de usuarios del sistema será de 1000 y que cada usuario podrá usar una capacidad de 10 GB.
 1.3 Los tipos de archivos que serán almacenados en el repositorio son: TXT, DOCX, XLS, PDF, JPG, BMP, entre otros. No se permitirá el almacenamiento de archivos ejecutables.
 1.4 El sistema permitirá la modificación de los archivos cargados en el repositorio mediante interfaz provista por el mismo sistema.
@@ -41,6 +40,7 @@ Para hacer una identificación arquitectural guiada y certera, se identifica los
 6.1 El sistema deberá soportar las características de fiabilidad definidas en la norma ISO25010 y en particular: tolerancia a fallos y capacidad de recuperación.
 6.2 La característica de capacidad de recuperación será implementada mediante el registro de LOGS de monitoreo en donde se registre el estado del sistema cada vez que se realiza una operación.
 6.3 La capacidad de recuperación se implementará mediante la lectura de LOGS de monitoreo y la restauración del sistema al estado estable anterior al fallo.
+
 
    # ARQUITECTURA PROPUESTA:
 
