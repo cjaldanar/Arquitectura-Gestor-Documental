@@ -41,11 +41,11 @@ Para hacer una identificación arquitectural guiada y certera, se identifica los
 * 6.2 La característica de capacidad de recuperación será implementada mediante el registro de LOGS de monitoreo en donde se registre el estado del sistema cada vez que se realiza una operación.
 * 6.3 La capacidad de recuperación se implementará mediante la lectura de LOGS de monitoreo y la restauración del sistema al estado estable anterior al fallo.
 
-   # ARQUITECTURA PROPUESTA:
+# ARQUITECTURA PROPUESTA:
 
 A partir de los requisitos identificados, se propone la siguiente arquitectura de la solución desde un punto de vista lógico :
 
-# Vista lógica
+# Vistas lógicas
 
   ![Imagen arquitectura](https://github.com/cjaldanar/Arquitectura-Gestor-Documental/blob/master/Arquitectura%20Gestor%20Documental.png)
 
